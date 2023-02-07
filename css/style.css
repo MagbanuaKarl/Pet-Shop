@@ -1,0 +1,114 @@
+body 
+    {
+        background-color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /*Body Style*/
+        border-left: green;
+        border-left: green;
+        width: 100%;
+        min-width: 900px;
+        max-width: 1150px;
+        font-family: Verdana, Geneva, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        margin: 0px auto;
+        position: relative;
+    }
+    h2 
+    {
+        background-color: rgb(0, 165, 0);
+        color: white;
+        letter-spacing: 00.4em; text-indent: 1em;
+    }
+
+nav ul
+    {
+        list-style-type: none;
+        padding-left: 0.5em;
+        background-color: rgb(125, 186, 240);
+        line-height: 3.5em;
+        
+    }
+
+
+nav ul li a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    section h1
+    {
+        background-color: rgb(125, 186, 240);
+        color: white;
+        font-size: 1.7em;
+        border-width: 2px;
+        border-left: blue;
+    }
+
+section p.closing
+    {
+        color: rgb(0, 165, 0);
+        text-align: right;
+    }
+
+section h2+ul
+    {
+        list-style-image: url();
+    }
+
+footer address
+    {
+        background-color: rgb(55, 102, 55);
+        color: white;
+        columns: rgba(255, 255, 255, 0.8);
+        font: normal small-caps 0.8em/4em 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+/**************** Lay Out ******************/
+body 
+{
+   margin: 0px auto;
+   padding: 0px;
+   width: 98%;
+   max-width: 800px;
+   min-width: 250px;
+}
+
+header, footer 
+{
+   margin: 0px auto;
+}
+
+nav 
+{
+   width: 200px;
+   float: left;
+   margin-right: 10px;
+}
+
+section 
+{
+   width: 590px;
+   float: left;
+}
+
+section img 
+{
+   float:  right;
+   margin: 15px;
+}
+
+address 
+{
+   clear: both;
+   width: 100%;
+}
+
+/**************** Lay Out ******************/
+.logoSize
+    {
+        border-radius: 10px;
+        width: 1000 ;
+        padding-left: 50px;
+    }
